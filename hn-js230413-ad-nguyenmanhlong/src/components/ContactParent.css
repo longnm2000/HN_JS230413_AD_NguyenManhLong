@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.error-text {
+    color: red;
+    margin-top: 3px;
+}
+
+
+
+#contact-info,
+#contact-info input {
+    background-color: #1c2566;
+}
+
+#contact-info label,
+#contact-info h2,
+.text-info {
+    color: white;
+
+}
+
+.text-info {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+}
+
+#contact-us {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icons {
+    display: flex;
+    color: white;
+    gap: 10px;
+}
