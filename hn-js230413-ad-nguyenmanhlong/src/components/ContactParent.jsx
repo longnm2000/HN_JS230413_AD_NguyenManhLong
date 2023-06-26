@@ -95,6 +95,10 @@ export default function ContactParent() {
       phone: phone,
       message: message,
     });
+    setName("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
   };
 
   console.log(nameError, emailError, phoneError, messageError);
